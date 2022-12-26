@@ -5,7 +5,9 @@
 
 ## Resources and Versions
 **Python Version**: 3.10
+
 **Packages/Modules**: pandas, geopandas, matplotlib, selenium, seaborn, shapely
+
 **Data Source**: https://www.cityofmadison.com/police/newsroom/incidentreports/
 
 ### Note: City of Madison states that Incident Reports are not indicative of all crimes, so interpret findings with this in mind.
