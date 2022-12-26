@@ -57,7 +57,7 @@ df["address"] = df["address"] + ":Madison, WI"
 
 df["coords"] = gpd.tools.geocode(df["address"], provider="nominatim",user_agent="snkennedy2@wisc.edu")["geometry"]
 
-df.to_csv("incidents_cleaned.csv", index=False)
+#df.to_csv("incidents_cleaned.csv", index=False)
 
 ## Implement Google Geocoding API to geocode ONLY addresses that Nominatim couldn't do (such as intersections)
 ## Make a feature column ["violent"], 1 for yes, 0 for no
