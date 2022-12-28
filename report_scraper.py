@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException
 import pandas as pd
 
 
-def get_incident_data(nrows): # Add feature to get all rows
+def get_incident_data(nrows): 
     # Setup of Webdriver and Selenium
     options = Options()
     #options.headless = True # Uncomment to run scraper in headless mode
