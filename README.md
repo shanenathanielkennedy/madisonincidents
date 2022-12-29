@@ -5,7 +5,7 @@
 + Conducted a thorough exploration of the data, especially geographically.
 
 ## Resources and Versions
-**Python Version**: 3.10
+**Python Version**: 3.10.9
 
 **Packages/Modules**: pandas, numpy, selenium, geopandas, shapely, matplotlib, seaborn
 
